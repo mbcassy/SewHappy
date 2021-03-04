@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51415EF25F1A8B300C030D0 /* MainViewController.swift */; };
 		E55DBA7725E575710003CD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA7625E575710003CD5A /* AppDelegate.swift */; };
 		E55DBA7925E575710003CD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA7825E575710003CD5A /* SceneDelegate.swift */; };
-		E55DBA7B25E575710003CD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA7A25E575710003CD5A /* ViewController.swift */; };
-		E55DBA7E25E575710003CD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55DBA7C25E575710003CD5A /* Main.storyboard */; };
+		E55DBA7B25E575710003CD5A /* FabricStashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA7A25E575710003CD5A /* FabricStashViewController.swift */; };
 		E55DBA8125E575710003CD5A /* SewHappy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA7F25E575710003CD5A /* SewHappy.xcdatamodeld */; };
 		E55DBA8325E575730003CD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55DBA8225E575730003CD5A /* Assets.xcassets */; };
 		E55DBA8625E575730003CD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55DBA8425E575730003CD5A /* LaunchScreen.storyboard */; };
@@ -36,11 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51415EF25F1A8B300C030D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E55DBA7325E575710003CD5A /* SewHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SewHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55DBA7625E575710003CD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E55DBA7825E575710003CD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E55DBA7A25E575710003CD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E55DBA7D25E575710003CD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E55DBA7A25E575710003CD5A /* FabricStashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricStashViewController.swift; sourceTree = "<group>"; };
 		E55DBA8025E575710003CD5A /* SewHappy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SewHappy.xcdatamodel; sourceTree = "<group>"; };
 		E55DBA8225E575730003CD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55DBA8525E575730003CD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51415F425F1A94C00C030D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E55DBA7A25E575710003CD5A /* FabricStashViewController.swift */,
+				E51415EF25F1A8B300C030D0 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E51415F825F1A95F00C030D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E55DBA7F25E575710003CD5A /* SewHappy.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E55DBA6A25E575710003CD5A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +104,7 @@
 				E55DBA7425E575710003CD5A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E55DBA7425E575710003CD5A /* Products */ = {
 			isa = PBXGroup;
@@ -103,12 +121,11 @@
 			children = (
 				E55DBA7625E575710003CD5A /* AppDelegate.swift */,
 				E55DBA7825E575710003CD5A /* SceneDelegate.swift */,
-				E55DBA7A25E575710003CD5A /* ViewController.swift */,
-				E55DBA7C25E575710003CD5A /* Main.storyboard */,
+				E51415F825F1A95F00C030D0 /* Model */,
+				E51415F425F1A94C00C030D0 /* Controller */,
 				E55DBA8225E575730003CD5A /* Assets.xcassets */,
 				E55DBA8425E575730003CD5A /* LaunchScreen.storyboard */,
 				E55DBA8725E575730003CD5A /* Info.plist */,
-				E55DBA7F25E575710003CD5A /* SewHappy.xcdatamodeld */,
 			);
 			path = SewHappy;
 			sourceTree = "<group>";
@@ -210,7 +227,7 @@
 				};
 			};
 			buildConfigurationList = E55DBA6E25E575710003CD5A /* Build configuration list for PBXProject "SewHappy" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -236,7 +253,6 @@
 			files = (
 				E55DBA8625E575730003CD5A /* LaunchScreen.storyboard in Resources */,
 				E55DBA8325E575730003CD5A /* Assets.xcassets in Resources */,
-				E55DBA7E25E575710003CD5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55DBA7B25E575710003CD5A /* ViewController.swift in Sources */,
+				E55DBA7B25E575710003CD5A /* FabricStashViewController.swift in Sources */,
 				E55DBA7725E575710003CD5A /* AppDelegate.swift in Sources */,
 				E55DBA8125E575710003CD5A /* SewHappy.xcdatamodeld in Sources */,
 				E55DBA7925E575710003CD5A /* SceneDelegate.swift in Sources */,
+				E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E55DBA7C25E575710003CD5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E55DBA7D25E575710003CD5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E55DBA8425E575730003CD5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
