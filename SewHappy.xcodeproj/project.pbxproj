@@ -18,6 +18,7 @@
 		E55DBA8625E575730003CD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55DBA8425E575730003CD5A /* LaunchScreen.storyboard */; };
 		E55DBA9125E575730003CD5A /* SewHappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA9025E575730003CD5A /* SewHappyTests.swift */; };
 		E55DBA9C25E575730003CD5A /* SewHappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA9B25E575730003CD5A /* SewHappyUITests.swift */; };
+		E5AA6D0525F2E3B90034E74C /* FabricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA6D0425F2E3B90034E74C /* FabricCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E55DBA9725E575730003CD5A /* SewHappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SewHappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55DBA9B25E575730003CD5A /* SewHappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SewHappyUITests.swift; sourceTree = "<group>"; };
 		E55DBA9D25E575730003CD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AA6D0425F2E3B90034E74C /* FabricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				E51415EF25F1A8B300C030D0 /* MainViewController.swift */,
-				E514160425F1B1A800C030D0 /* ProjectsViewController.swift */,
 				E55DBA7A25E575710003CD5A /* FabricStashViewController.swift */,
+				E514160425F1B1A800C030D0 /* ProjectsViewController.swift */,
 				E514160925F1C06100C030D0 /* SettingsViewController.swift */,
 			);
 			path = Controller;
@@ -128,6 +130,7 @@
 				E55DBA7625E575710003CD5A /* AppDelegate.swift */,
 				E55DBA7825E575710003CD5A /* SceneDelegate.swift */,
 				E51415F825F1A95F00C030D0 /* Model */,
+				E5AA6D0925F2E3BF0034E74C /* View */,
 				E51415F425F1A94C00C030D0 /* Controller */,
 				E55DBA8225E575730003CD5A /* Assets.xcassets */,
 				E55DBA8425E575730003CD5A /* LaunchScreen.storyboard */,
@@ -152,6 +155,14 @@
 				E55DBA9D25E575730003CD5A /* Info.plist */,
 			);
 			path = SewHappyUITests;
+			sourceTree = "<group>";
+		};
+		E5AA6D0925F2E3BF0034E74C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA6D0425F2E3B90034E74C /* FabricCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				E55DBA8125E575710003CD5A /* SewHappy.xcdatamodeld in Sources */,
 				E55DBA7925E575710003CD5A /* SceneDelegate.swift in Sources */,
 				E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */,
+				E5AA6D0525F2E3B90034E74C /* FabricCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

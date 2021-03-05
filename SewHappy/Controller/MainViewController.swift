@@ -13,21 +13,10 @@ class MainViewController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         self.delegate = self
         view.backgroundColor = .white
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
     override func viewWillAppear(_ animated: Bool) {
+        //TODO: Possibly move all this code to the scene delegate
         super.viewWillAppear(animated)
         
         let fabricTab = FabricStashViewController()
@@ -42,6 +31,7 @@ class MainViewController: UITabBarController, UITabBarControllerDelegate {
         let settingsTabBarItem = UITabBarItem(title: "Settings", image: UIImage(systemName: "gearshape.2.fill"), selectedImage: UIImage(systemName: "gearshape.2.fill"))
         settingsTab.tabBarItem = settingsTabBarItem
         
-        self.viewControllers = [fabricTab, projectsTab, settingsTab]
+        let controllers = [fabricTab, projectsTab, settingsTab]
+        self.viewControllers = controllers
     }
 }
