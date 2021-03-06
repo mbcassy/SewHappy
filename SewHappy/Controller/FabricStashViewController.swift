@@ -64,8 +64,10 @@ class FabricStashViewController: UIViewController {
         ])
 
         button.clipsToBounds = true
-        button.backgroundColor = .black
-        //edit this so that the button image does not go to the edge of button. Basically make the button image smaller than button
+        button.backgroundColor = .none
+        button.tintColor = .systemPink
+        //TODO: edit this so that the button image does not go to the edge of button.
+        // Basically make the button image smaller than button.
         button.setBackgroundImage(UIImage(systemName: "plus"), for: .normal)
         
         self.addButton = button
