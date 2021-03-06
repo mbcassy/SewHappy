@@ -19,6 +19,8 @@
 		E55DBA9125E575730003CD5A /* SewHappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA9025E575730003CD5A /* SewHappyTests.swift */; };
 		E55DBA9C25E575730003CD5A /* SewHappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DBA9B25E575730003CD5A /* SewHappyUITests.swift */; };
 		E5AA6D0525F2E3B90034E74C /* FabricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA6D0425F2E3B90034E74C /* FabricCell.swift */; };
+		E5DA32AF25F42FE800296161 /* FabricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA32AE25F42FE800296161 /* FabricView.swift */; };
+		E5DA32B425F433A100296161 /* ObjectDataDelegateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA32B325F433A100296161 /* ObjectDataDelegateSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		E55DBA9B25E575730003CD5A /* SewHappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SewHappyUITests.swift; sourceTree = "<group>"; };
 		E55DBA9D25E575730003CD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5AA6D0425F2E3B90034E74C /* FabricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricCell.swift; sourceTree = "<group>"; };
+		E5DA32AE25F42FE800296161 /* FabricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricView.swift; sourceTree = "<group>"; };
+		E5DA32B325F433A100296161 /* ObjectDataDelegateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDataDelegateSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E55DBA7F25E575710003CD5A /* SewHappy.xcdatamodeld */,
+				E5DA32B325F433A100296161 /* ObjectDataDelegateSource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AA6D0425F2E3B90034E74C /* FabricCell.swift */,
+				E5DA32AE25F42FE800296161 /* FabricView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DA32B425F433A100296161 /* ObjectDataDelegateSource.swift in Sources */,
 				E514160525F1B1A800C030D0 /* ProjectsViewController.swift in Sources */,
 				E55DBA7B25E575710003CD5A /* FabricStashViewController.swift in Sources */,
 				E514160A25F1C06100C030D0 /* SettingsViewController.swift in Sources */,
 				E55DBA7725E575710003CD5A /* AppDelegate.swift in Sources */,
+				E5DA32AF25F42FE800296161 /* FabricView.swift in Sources */,
 				E55DBA8125E575710003CD5A /* SewHappy.xcdatamodeld in Sources */,
 				E55DBA7925E575710003CD5A /* SceneDelegate.swift in Sources */,
 				E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */,
