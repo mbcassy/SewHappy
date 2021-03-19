@@ -1,0 +1,6 @@
+framework module Pods_SewHappy_SewHappyUITests {
+  umbrella header "Pods-SewHappy-SewHappyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

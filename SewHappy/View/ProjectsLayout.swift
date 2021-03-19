@@ -8,5 +8,5 @@
 import UIKit
 
 class ProjectsLayout: UICollectionViewLayout {
-
+    //TODO: Implement custom layout that looks like pinterests layout
 }

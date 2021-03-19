@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF9C01A1A753F9681FC943B /* Pods_SewHappy_SewHappyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763DB94A3D3C39656F17CF3C /* Pods_SewHappy_SewHappyUITests.framework */; };
+		7C9BEA6639A151D960CE77F0 /* Pods_SewHappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2307E6647B286E7F6ED7B0F /* Pods_SewHappyTests.framework */; };
+		C9267A128BEE74CE6B4CB1A8 /* Pods_SewHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6904F168A50C2902DA6EE98 /* Pods_SewHappy.framework */; };
 		E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51415EF25F1A8B300C030D0 /* MainViewController.swift */; };
 		E514160525F1B1A800C030D0 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514160425F1B1A800C030D0 /* ProjectsViewController.swift */; };
 		E514160A25F1C06100C030D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514160925F1C06100C030D0 /* SettingsViewController.swift */; };
@@ -21,6 +24,7 @@
 		E5AA6D0525F2E3B90034E74C /* FabricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA6D0425F2E3B90034E74C /* FabricCell.swift */; };
 		E5DA32AF25F42FE800296161 /* FabricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA32AE25F42FE800296161 /* FabricView.swift */; };
 		E5DA32B425F433A100296161 /* ObjectDataDelegateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA32B325F433A100296161 /* ObjectDataDelegateSource.swift */; };
+		E5DA32B925F4399200296161 /* ProjectsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA32B825F4399200296161 /* ProjectsLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D2A6ACF8BB4085C10ECEED /* Pods-SewHappyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappyTests.release.xcconfig"; path = "Target Support Files/Pods-SewHappyTests/Pods-SewHappyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2776F960EFDD5AEA3135039E /* Pods-SewHappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappyTests.debug.xcconfig"; path = "Target Support Files/Pods-SewHappyTests/Pods-SewHappyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BF8FFE7FCC32495340D8B7C /* Pods-SewHappy-SewHappyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappy-SewHappyUITests.release.xcconfig"; path = "Target Support Files/Pods-SewHappy-SewHappyUITests/Pods-SewHappy-SewHappyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		763DB94A3D3C39656F17CF3C /* Pods_SewHappy_SewHappyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SewHappy_SewHappyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F07ED3ADD4BE55E197B77 /* Pods-SewHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappy.release.xcconfig"; path = "Target Support Files/Pods-SewHappy/Pods-SewHappy.release.xcconfig"; sourceTree = "<group>"; };
+		B0E75278A0FAFFEB82BA3ECB /* Pods-SewHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappy.debug.xcconfig"; path = "Target Support Files/Pods-SewHappy/Pods-SewHappy.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D59B68A6D41EC913B0607C /* Pods-SewHappy-SewHappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SewHappy-SewHappyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SewHappy-SewHappyUITests/Pods-SewHappy-SewHappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E51415EF25F1A8B300C030D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E514160425F1B1A800C030D0 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		E514160925F1C06100C030D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +72,9 @@
 		E5AA6D0425F2E3B90034E74C /* FabricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricCell.swift; sourceTree = "<group>"; };
 		E5DA32AE25F42FE800296161 /* FabricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricView.swift; sourceTree = "<group>"; };
 		E5DA32B325F433A100296161 /* ObjectDataDelegateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDataDelegateSource.swift; sourceTree = "<group>"; };
+		E5DA32B825F4399200296161 /* ProjectsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsLayout.swift; sourceTree = "<group>"; };
+		F2307E6647B286E7F6ED7B0F /* Pods_SewHappyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SewHappyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6904F168A50C2902DA6EE98 /* Pods_SewHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SewHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9267A128BEE74CE6B4CB1A8 /* Pods_SewHappy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9BEA6639A151D960CE77F0 /* Pods_SewHappyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9C01A1A753F9681FC943B /* Pods_SewHappy_SewHappyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051856EA76244BB5F14C13A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E75278A0FAFFEB82BA3ECB /* Pods-SewHappy.debug.xcconfig */,
+				874F07ED3ADD4BE55E197B77 /* Pods-SewHappy.release.xcconfig */,
+				C7D59B68A6D41EC913B0607C /* Pods-SewHappy-SewHappyUITests.debug.xcconfig */,
+				2BF8FFE7FCC32495340D8B7C /* Pods-SewHappy-SewHappyUITests.release.xcconfig */,
+				2776F960EFDD5AEA3135039E /* Pods-SewHappyTests.debug.xcconfig */,
+				25D2A6ACF8BB4085C10ECEED /* Pods-SewHappyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63E9D5C9CE510E83838C3858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6904F168A50C2902DA6EE98 /* Pods_SewHappy.framework */,
+				763DB94A3D3C39656F17CF3C /* Pods_SewHappy_SewHappyUITests.framework */,
+				F2307E6647B286E7F6ED7B0F /* Pods_SewHappyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E51415F425F1A94C00C030D0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +156,8 @@
 				E55DBA8F25E575730003CD5A /* SewHappyTests */,
 				E55DBA9A25E575730003CD5A /* SewHappyUITests */,
 				E55DBA7425E575710003CD5A /* Products */,
+				051856EA76244BB5F14C13A4 /* Pods */,
+				63E9D5C9CE510E83838C3858 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -167,6 +210,7 @@
 			children = (
 				E5AA6D0425F2E3B90034E74C /* FabricCell.swift */,
 				E5DA32AE25F42FE800296161 /* FabricView.swift */,
+				E5DA32B825F4399200296161 /* ProjectsLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E55DBAA025E575730003CD5A /* Build configuration list for PBXNativeTarget "SewHappy" */;
 			buildPhases = (
+				F7C633ED4A623252785EC48A /* [CP] Check Pods Manifest.lock */,
 				E55DBA6F25E575710003CD5A /* Sources */,
 				E55DBA7025E575710003CD5A /* Frameworks */,
 				E55DBA7125E575710003CD5A /* Resources */,
+				67256C580912F2EF166A345B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E55DBAA325E575730003CD5A /* Build configuration list for PBXNativeTarget "SewHappyTests" */;
 			buildPhases = (
+				BE364EF988CF69127042C443 /* [CP] Check Pods Manifest.lock */,
 				E55DBA8825E575730003CD5A /* Sources */,
 				E55DBA8925E575730003CD5A /* Frameworks */,
 				E55DBA8A25E575730003CD5A /* Resources */,
@@ -213,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E55DBAA625E575730003CD5A /* Build configuration list for PBXNativeTarget "SewHappyUITests" */;
 			buildPhases = (
+				25512165F19DAB0104E033FA /* [CP] Check Pods Manifest.lock */,
 				E55DBA9325E575730003CD5A /* Sources */,
 				E55DBA9425E575730003CD5A /* Frameworks */,
 				E55DBA9525E575730003CD5A /* Resources */,
+				C1A1B557A8649787B77142FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +344,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25512165F19DAB0104E033FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SewHappy-SewHappyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67256C580912F2EF166A345B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SewHappy/Pods-SewHappy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SewHappy/Pods-SewHappy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SewHappy/Pods-SewHappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE364EF988CF69127042C443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SewHappyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A1B557A8649787B77142FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SewHappy-SewHappyUITests/Pods-SewHappy-SewHappyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SewHappy-SewHappyUITests/Pods-SewHappy-SewHappyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SewHappy-SewHappyUITests/Pods-SewHappy-SewHappyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C633ED4A623252785EC48A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SewHappy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E55DBA6F25E575710003CD5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,6 +460,7 @@
 				E5DA32AF25F42FE800296161 /* FabricView.swift in Sources */,
 				E55DBA8125E575710003CD5A /* SewHappy.xcdatamodeld in Sources */,
 				E55DBA7925E575710003CD5A /* SceneDelegate.swift in Sources */,
+				E5DA32B925F4399200296161 /* ProjectsLayout.swift in Sources */,
 				E51415F025F1A8B300C030D0 /* MainViewController.swift in Sources */,
 				E5AA6D0525F2E3B90034E74C /* FabricCell.swift in Sources */,
 			);
@@ -474,6 +627,7 @@
 		};
 		E55DBAA125E575730003CD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E75278A0FAFFEB82BA3ECB /* Pods-SewHappy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +647,7 @@
 		};
 		E55DBAA225E575730003CD5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874F07ED3ADD4BE55E197B77 /* Pods-SewHappy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +667,7 @@
 		};
 		E55DBAA425E575730003CD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2776F960EFDD5AEA3135039E /* Pods-SewHappyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +690,7 @@
 		};
 		E55DBAA525E575730003CD5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D2A6ACF8BB4085C10ECEED /* Pods-SewHappyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +713,7 @@
 		};
 		E55DBAA725E575730003CD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D59B68A6D41EC913B0607C /* Pods-SewHappy-SewHappyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +734,7 @@
 		};
 		E55DBAA825E575730003CD5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF8FFE7FCC32495340D8B7C /* Pods-SewHappy-SewHappyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

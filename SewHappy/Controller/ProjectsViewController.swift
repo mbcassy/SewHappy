@@ -9,21 +9,21 @@ import UIKit
 
 class ProjectsViewController: UIViewController {
 
+    private var mainView = FabricView()
+    private var projectsDataDelegateSource = ObjectDataDelegateSource()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
-        // Do any additional setup after loading the view.
+        self.mainView.fabricCollectionView.dataSource = projectsDataDelegateSource
+        self.mainView.fabricCollectionView.delegate = projectsDataDelegateSource
+        self.mainView.fabricCollectionView.register(FabricCell.self, forCellWithReuseIdentifier: FabricCell.identifier)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func loadView() {
+        super.loadView()
+        self.view = mainView
     }
-    */
-
-}
+    
+    override func viewDidLayoutSubviews() {
+        self.mainView.addButton.layer.cornerRadius = 0.5 * self.mainView.addButton.bounds.size.width
+    }}

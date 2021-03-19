@@ -9,6 +9,7 @@ import UIKit
 
 class ObjectDataDelegateSource: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
+    //TODO: edit this with real data
     var data: [Int] = Array(0..<10)
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
