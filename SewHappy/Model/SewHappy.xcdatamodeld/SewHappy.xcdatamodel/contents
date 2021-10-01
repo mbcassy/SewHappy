@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="FabricData" representedClassName="FabricData" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Fabric" representedClassName=".Fabric" syncable="YES">
         <attribute name="color" optional="YES" attributeType="String"/>
         <attribute name="fiberType" optional="YES" attributeType="String"/>
-        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="image" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
         <attribute name="name" attributeType="String"/>
         <attribute name="purchasedFrom" optional="YES" attributeType="String"/>
         <attribute name="quantity" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
     <elements>
-        <element name="FabricData" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Fabric" positionX="-63" positionY="-18" width="128" height="119"/>
     </elements>
 </model>

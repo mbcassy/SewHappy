@@ -9,13 +9,12 @@ import UIKit
 
 class ProjectsViewController: UIViewController {
 
-    private var mainView = FabricView()
-    private var projectsDataDelegateSource = ObjectDataDelegateSource()
+    private var mainView = FabricCollectionView()
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.mainView.fabricCollectionView.dataSource = projectsDataDelegateSource
-        self.mainView.fabricCollectionView.delegate = projectsDataDelegateSource
+        //self.mainView.fabricCollectionView.dataSource = self
+        //self.mainView.fabricCollectionView.delegate = self
         self.mainView.fabricCollectionView.register(FabricCell.self, forCellWithReuseIdentifier: FabricCell.identifier)
     }
     

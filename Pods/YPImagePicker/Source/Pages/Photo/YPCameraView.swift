@@ -96,7 +96,8 @@ class YPCameraView: UIView, UIGestureRecognizerDelegate {
         shotButton.size(84).centerHorizontally()
 
         // Style
-        backgroundColor = YPConfig.colors.photoVideoScreenBackgroundColor
+        //backgroundColor = YPConfig.colors.photoVideoScreenBackgroundColor
+        backgroundColor = .white
         previewViewContainer.backgroundColor = UIColor.ypLabel
         timeElapsedLabel.style { l in
             l.textColor = .white

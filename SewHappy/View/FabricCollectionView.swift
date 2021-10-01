@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FabricView: UIView {
+class FabricCollectionView: UIView {
 
     weak var fabricCollectionView: UICollectionView!
     weak var cvTitle: UILabel!
@@ -43,7 +43,7 @@ class FabricView: UIView {
         self.addSubview(collectionView)
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: self.cvTitle.bottomAnchor),
-            collectionView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
             collectionView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: self.trailingAnchor)
         ])
